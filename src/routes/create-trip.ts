@@ -1,7 +1,7 @@
 import { FastifyInstance } from "fastify";
 
-import { date, z } from "zod";
 import type { ZodTypeProvider } from "fastify-type-provider-zod";
+import { date, z } from "zod";
 
 import dayjs from "dayjs";
 import nodemailer from "nodemailer";
